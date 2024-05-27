@@ -1,5 +1,13 @@
-function toCelsius(fahrenheit) {
-    return (5/9) * (fahrenheit-32);
+const person = {
+  firstName : "somto",
+  lastName  : "Okpala",
+  id        : "12345",
+  fullName  : function () {
+    return this.firstName + " " + this.lastName 
   }
-  
-  let value = toCelsius(77);
+
+}
+
+//console.log(person.fullName());
+//console.log(person.id);
+
